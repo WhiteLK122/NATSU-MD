@@ -1,12 +1,12 @@
 {
-  "name": "KING-MD",
-  "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By KingTech",
+  "name": "NATSU-MD",
+  "version": "1.0.0",
+  "description": "A WhatsApp Bot Created By DilishaTech",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KING-MD",
-    "stop": "pm2 stop KING-MD",
-    "restart": "pm2 restart KING-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NATSU-MD",
+    "stop": "pm2 stop NATSU-MD",
+    "restart": "pm2 restart NATSU-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
