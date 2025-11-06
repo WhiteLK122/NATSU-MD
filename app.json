@@ -1,8 +1,8 @@
 {
-  "name": "KING-MD",
+  "name": "NATSU-MD",
   "description": "Javascript WhatsApp bot made by Dilisha Gimshan",
-  "logo": "https://i.ibb.co/21wBg1F2/3956e79130eb5907.jpg",
-  "keywords": ["KING-MD"],
+  "logo": "https://files.catbox.moe/qfwspq.jpg",
+  "keywords": ["NATSU-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "KING-MD"
+      "value": "NATSU-MD"
     }, 
       
     "PREFIX": {
@@ -79,7 +79,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY KING-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY NATSU-MD 🖤*"
    
      }, 
     
@@ -99,7 +99,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KING-MD"
+      "value": "NATSU-MD"
 
       }, 
 
@@ -119,7 +119,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© POWERED BY KING CINEMA*"
+      "value": "*© POWERED BY NATSU BOT*"
     },
 
       "DELETE_LINKS": {
