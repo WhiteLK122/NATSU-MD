@@ -78,7 +78,6 @@ conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", { image: { url: `https:/
 }
 })
 conn.ev.on('creds.update', saveCreds)  
-
 conn.ev.on('messages.upsert', async(mek) => {
 mek = mek.messages[0]
 if (!mek.message) return	
