@@ -71,20 +71,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Avishka_X-MD connected to whatsapp ✅')
 
-let up = `
-🚀 **Avishka_X-MD Connected Successfully!** ✅ 
-
---- **🎉 Welcome to Avishka_X-MD!** 🎉 
-
-**🔹 PREFIX:** ${prefix}
-
-**🔹 OWNER:**  ${ownerNumber}
-
---- Thank you for using **Avishka_X-MD MD**. 
-We're here to make your experience enjoyable and seamless. 
-If you need any help or have questions, don't hesitate to ask. 
-
-**Enjoy your time with us!** 😊 `;
+let up = `HELLOW`;
 
 conn.sendMessage(config.BOT_NUMBER + "@s.whatsapp.net", { image: { url: `https://iili.io/2c1i67f.jpg` }, caption: up })
 
