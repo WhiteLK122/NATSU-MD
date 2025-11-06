@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KING-ID~", '');
+const sessdata = config.SESSION_ID.replace("NATSU-ID~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -82,7 +82,7 @@ const port = process.env.PORT || 9090;
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("Connecting To Whatsapp 📀");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -112,8 +112,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there KING-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet KING-MD WhatsApp Bot.\n\n *Thanks for using KING-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://chat.whatsapp.com/CnVFvSwoyLlDTbOZXCBOMK\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/CAMP-LK/KING-MD\n\n> © Powered BY KING CINEMA \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/21wBg1F2/3956e79130eb5907.jpg` }, caption: up })
+  let up = `*Hello there NATSU-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet NATSU-MD WhatsApp Bot.\n\n *Thanks for using NATSU-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://chat.whatsapp.com/HEges0ORbeHFYjl3yP4NT0?mode=wwt\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/WhiteLK122/NATSU-MD\n\n> © Powered BY NATSU BOT \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/qfwspq.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -726,7 +726,7 @@ const port = process.env.PORT || 9090;
   }
   
   app.get("/", (req, res) => {
-  res.send("KING MD STARTED ✅");
+  res.send("NATSU MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
