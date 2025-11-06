@@ -1,6 +1,6 @@
-name: king-md
+name: natsu-md
 services:
-  - name: king-md-service
+  - name: natsu-md-service
     type: web
     ports:
       - 5000
