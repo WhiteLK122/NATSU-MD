@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KING-ID~7mYABK4J#hRGfz8oTB_QIh6FSE37P_forXJCSt38agnoKoMOpvuc",
+SESSION_ID: process.env.SESSION_ID || "PUT YOUR SESSION ID",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,13 +13,13 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY KING-MD *",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*豈 𝚈𝙾𝚄𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 𝚂𝙴𝙴𝙽 𝙱𝚈 ΝᎪͲՏႮ-ᎷᎠ ㋡*",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "KING-MD",
+BOT_NAME: process.env.BOT_NAME || "NATSU-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "KING-MD",
+STICKER_NAME: process.env.STICKER_NAME || "NATSU-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -33,9 +33,9 @@ OWNER_NAME: process.env.OWNER_NAME || "𝙳𝙸𝙻𝙸𝚂𝙷𝙰 𝙶𝙸𝙼
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳𝙸𝙻𝙸𝚂𝙷𝙰 𝙶𝙸𝙼𝚂𝙷𝙰𝙽*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/21wBg1F2/3956e79130eb5907.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/qfwspq.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> ALIVE IN *KING-MD*",
+LIVE_MSG: process.env.LIVE_MSG || "🄰🄻🄸🅅🄴 🄱🅈 *ΝᎪͲՏႮ-ᎷᎠ*",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -61,7 +61,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923427582273",
+DEV: process.env.DEV || "94771098429",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
